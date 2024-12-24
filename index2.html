@@ -1,0 +1,1581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="IMG/icon-logo.fbf64660.png" type="IMG/icon-logo.fbf64660.png">
+    <title>homzmart</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <!-- الشعار وزر القائمة -->
+            <a class="navbar-brand" href="file:///E:/%D9%85%D8%B9%D8%B1%D8%B6%20%D8%A7%D8%AB%D8%A7%D8%AB/Index.html">
+                <img src="IMG/icon-logo.fbf64660.png" alt="" width="40px">
+                homzmart
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- المحتوى -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- يسار -->
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="https://flagcdn.com/w320/eg.png" alt="Egypt Flag" class="flag-icon">
+                            <span class="text-white">Deliver to Egypt</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                            <li><a class="dropdown-item active" aria-current="true" href="#">Egypt</a></li>
+                            <li><a class="dropdown-item" href="#">Saudi</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <!-- شريط البحث -->
+                <form class="search-bar d-none d-lg-flex">
+                    <input class="form-control" type="search" placeholder="What are you looking for?" aria-label="Search">
+                </form>
+                <!-- يمين -->
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item">
+                        <div class="profile-container">
+                            <img src="IMG/تصميم بدون عنوان.png" alt="صورة الملف الشخصي" class="profile-image">
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="accountDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My Account
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="accountDropdown">
+                            <li><a class="dropdown-item" href="ملف التسجيل/Log in.html">Account Details</a></li>
+                            <li><a class="dropdown-item" href="ملف التسجيل/Sign up.html">Sign out</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" style="background-color: #c6ac8f; border: none;"><i class="fas fa-shopping-cart"></i></a>
+                        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasExampleLabel">Shopping list</h5>
+                            </div>
+                            <div class="offcanvas-body">
+                              <div>
+                                Your shopping list is empty.
+                              </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 justify-content-center">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1" style="color: white;">Dressing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2" style="color: white;">Wooden Side Tables</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading3" style="color: white;">TV Units</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading4" style="color: white;">Bed Covers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading5" style="color: white;">Modern Collection</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading6" style="color: white;">Gaming Chairs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading7" style="color: white;">Boho Lighting</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading8" style="color: white;">Boho Decor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading9" style="color: white;">Best full kitchen deals</a>
+          </li>
+        </ul>
+      </nav>
+
+    <div class="container mt-5">
+        <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+            <!-- المؤشرات -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="الشريحة 1"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="الشريحة 2"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="2" aria-label="الشريحة 3"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="3" aria-label="الشريحة 4"></button>
+                <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="4" aria-label="الشريحة 5"></button>
+            </div>
+
+            <!-- الشرائح -->
+            <div class="carousel-inner" style="border-radius: 20px;">
+                <div class="carousel-item active">
+                    <img src="IMG/egy-main_banner-en-dt_11.jpg" class="d-block w-100" alt="صورة 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/egy-main_banner-en-dt_12.jpg" class="d-block w-100" alt="صورة 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/egy-main_banner-en-dt_13.jpg" class="d-block w-100" alt="صورة 3">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/egy-main_banner-en-dt_18__1.jpg" class="d-block w-100" alt="صورة 4">
+                </div>
+                <div class="carousel-item">
+                    <img src="IMG/main_banner-en-dt_2_.jpg" class="d-block w-100" alt="صورة 5">
+                </div>
+            </div>
+
+            <!-- أزرار التنقل -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row g-4">
+            <!-- البطاقة الأولى -->
+            <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000">
+                <div class="discount-card">
+                    <h3 style="z-index: 444;">DISCOUNT</h3>
+                    <h1 style="z-index: 777;">1,000 <small>EGP</small></h1>
+                    <span class="discount-code">Use Code: SAVE10</span>
+                    <p class="small-text">on orders above <strong>10,000 EGP</strong></p>
+                </div>
+            </div>
+            <!-- البطاقة الثانية -->
+            <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000">
+                <div class="discount-card">
+                    <h3 style="z-index: 444;">DISCOUNT</h3>
+                    <h1 style="z-index: 444;">3,500 <small>EGP</small></h1>
+                    <span class="discount-code">Use Code: SAVE25</span>
+                    <p class="small-text">on orders above <strong>25,000 EGP</strong></p>
+                </div>
+            </div>
+            <!-- البطاقة الثالثة -->
+            <div class="col-md-4" data-aos="flip-left" data-aos-duration="1000">
+                <div class="discount-card">
+                    <h3 style="z-index: 444;">DISCOUNT</h3>
+                    <h1 style="z-index: 444;">10,000 <small>EGP</small></h1>
+                    <span class="discount-code">Use Code: SAVE50</span>
+                    <p class="small-text">on orders above <strong>50,000 EGP</strong></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" data-aos="fade-up" data-aos-duration="1500"> 
+        <h1 class="essentials-title text-center mb-4">BEDROOM ESSENTIALS</h1>
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+            <!-- Beds -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-Beds-EN-DT_9 (1).jpg" alt="Beds" class="img-fluid">
+                </div>
+            </div>
+            <!-- Wardrobes -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-Wardrobes-EN-APP-1_3 (1).jpg" alt="Wardrobes" class="img-fluid">
+                </div>
+            </div>
+            <!-- Commodes -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-Commodes-EN-APP-1_3.jpg" alt="Commodes" class="img-fluid">
+                </div>
+            </div>
+            <!-- Unit Drawers -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-Unit_Drawers-EN-APP-1_3 (1).jpg" alt="Unit Drawers" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="container my-5">
+        <h2 class="mb-4 text-center" id="scrollspyHeading1">Dressing</h2>
+        <div id="dressingCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- العناصر داخل Carousel -->
+            <div class="carousel-inner">
+                <!-- الشريحة الأولى -->
+                <div class="carousel-item active">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/wodst81-env.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="./on.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Wood Dressing 210x220x45x40 cm - Black and Beige</h5>
+                                    <p class="card-text">EGP 29,999.00 <span class="text-muted text-decoration-line-through"><br>EGP 44,399.00</span></p>
+                                    <p class="text-success">33% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/ra-d77-1.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="on2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Dressing White - 200x180x50 cm</h5>
+                                    <p class="card-text">EGP 27,100.00 <span class="text-muted text-decoration-line-through"><br>EGP 42,640.00</span></p>
+                                    <p class="text-success">37% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/gw-601-w_env_copy_.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="on3.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Dressing White - 128x40x80 cm</h5>
+                                    <p class="card-text">EGP 5,686.00 <span class="text-muted text-decoration-line-through"><br>EGP 6,666.00</span></p>
+                                    <p class="text-success">15% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/w3_21.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="on4.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">I.F.S119 Dressing - White</h5>
+                                    <p class="card-text">EGP 16,300.00 <span class="text-muted text-decoration-line-through"><br>EGP 24,260.00</span></p>
+                                    <p class="text-success">33% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- الشريحة الثانية -->
+                <div class="carousel-item">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                        <div class="col" id="you">
+                            <div class="col" id="you">
+                                <div class="card h-100">
+                                    <img src="IMG/w14_5 (1).jpg" class="card-img-top" alt="Product Image">
+                                    <div class="card-body">
+                                        <a href="on5.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">I.F.S107 Dressing - White</h5>
+                                        <p class="card-text">EGP 14,473.00 <span class="text-muted text-decoration-line-through"><br>EGP 21,520.00</span></p>
+                                        <p class="text-success">33% Off</p>
+                                        <p class="text-muted">Upon Demand</p></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/wodst96-env.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="on6.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Dressing White - 200x180x50 cm</h5>
+                                    <p class="card-text">EGP 22,760.00 <span class="text-muted text-decoration-line-through"><br>EGP 35,696.00</span></p>
+                                    <p class="text-success">37% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/overlay_main_1024_1__4.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="on7.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Dressing Beige - 200x50x200 cm</h5>
+                                    <p class="card-text">EGP 18,200.00 <span class="text-muted text-decoration-line-through"><br>EGP 22,461.00</span></p>
+                                    <p class="text-success">19% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/w4_13.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="on8.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">I.F.S118 Dressing - White</h5>
+                                    <p class="card-text">EGP 16,300.00 <span class="text-muted text-decoration-line-through"><br>EGP 24,260.00</span></p>
+                                    <p class="text-success">33% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- عناصر التحكم -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </div>
+    
+       
+
+    <div class="container" data-aos="fade-up" data-aos-duration="1500"> 
+        <h1 class="essentials-title text-center mb-4">LIVING ROOM ESSENTIALS</h1>
+        <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+            <!-- Beds -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-Center_Tables-EN-APP-1_4.jpg" alt="Beds" class="img-fluid">
+                </div>
+            </div>
+            <!-- Wardrobes -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-Recliners-EN-DT_4.jpg" alt="Wardrobes" class="img-fluid">
+                </div>
+            </div>
+            <!-- Commodes -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-Chairs-EN-DT_4.jpg" alt="Commodes" class="img-fluid">
+                </div>
+            </div>
+            <!-- Unit Drawers -->
+            <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                <div class="essential-item">
+                    <img src="IMG/EGY-L-Shapes-EN-DT_34.jpg" alt="Unit Drawers" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container my-5">
+        <h2 class="mb-4 text-center" id="scrollspyHeading2">Wooden Side Tables</h2>
+        <div id="dressingCarousel2" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- الشريحة الأولى -->
+                <div class="carousel-item active">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/144_1_2.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Spanish MDF Side Table Set 3 Pieces - Beige</h5>
+                                    <p class="card-text">EGP 2,000.00 <span class="text-muted text-decoration-line-through"><br>EGP 3,020.00</span></p>
+                                    <p class="text-success">34% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/t14_1__1_1.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Side Table Brown - 40x30x40 cm</h5>
+                                    <p class="card-text">EGP 1,900.00 <span class="text-muted text-decoration-line-through"><br>EGP 2,860.00</span></p>
+                                    <p class="text-success">34% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/hom.sma.27.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF and Melamine and HPL and Beech Wood Side Table - and Beige</h5>
+                                    <p class="card-text">EGP 3,077.00 <span class="text-muted text-decoration-line-through"><br>EGP 7,027.00</span></p>
+                                    <p class="text-success">57% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/t29_resized_1024x1024_.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Side Table Beige and White - 40x40x60 cm</h5>
+                                    <p class="card-text">EGP 2,350.00 <span class="text-muted text-decoration-line-through"><br>EGP 3,580.00</span></p>
+                                    <p class="text-success">35% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- الشريحة الثانية -->
+                <div class="carousel-item">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/147_20.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Spanish MDF Side Table Set Grey and Beige - 3 Pieces</h5>
+                                    <p class="card-text">EGP 3,400.00 <span class="text-muted text-decoration-line-through"><br>EGP 5,260.00</span></p>
+                                    <p class="text-success">36% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/143_1__1.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Spanish MDF Side Table Set White and Beige - 2 Pieces</h5>
+                                    <p class="card-text">EGP 2,000.00 <span class="text-muted text-decoration-line-through"><br>EGP 3,020.00</span></p>
+                                    <p class="text-success">34% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/hom.sm.128.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Melamine Wood Side Tables set 2 Pieces - White</h5>
+                                    <p class="card-text">EGP 4,500.00 <span class="text-muted text-decoration-line-through"><br>EGP 6,600.00</span></p>
+                                    <p class="text-success">32% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/149_19.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Spanish MDF Side Table Set White and Grey - 2 Pieces</h5>
+                                    <p class="card-text">EGP 1,800.00 <span class="text-muted text-decoration-line-through"><br>EGP 2,700.00</span></p>
+                                    <p class="text-success">34% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- عناصر التحكم -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel2" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel2" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </div>
+    
+
+    <div class="container my-5">
+        <h2 class="mb-4 text-center" id="scrollspyHeading3">TV Units</h2>
+        <div id="dressingCarousel3" class="carousel slide" data-bs-ride="carousel">
+            <!-- العناصر داخل Carousel -->
+            <div class="carousel-inner">
+                <!-- الشريحة الأولى -->
+                <div class="carousel-item active">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/1----_2.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Brown Tv Unit - 50x30x150x33 cm</h5>
+                                  <p class="card-text">EGP 5,850.00 <span class="text-muted text-decoration-line-through"><br>EGP 9,180.00</span></p>
+                                  <p class="text-success">37% Off</p>
+                                  <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/hos100_3_s.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Brown and White Tv Unit - 35 × 160 × 32 cmm</h5>
+                                    <p class="card-text">EGP 4,110.00 <span class="text-muted text-decoration-line-through"><br>EGP 6,390.00</span></p>
+                                    <p class="text-success">36% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/5_31_186.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">European Union Wood TV Unit White and Beige - 180 × 36 × 30 cm</h5>
+                                    <p class="card-text">EGP 2,910.00 <span class="text-muted text-decoration-line-through"><br>EGP 7,436.00</span></p>
+                                    <p class="text-success">61% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/image_2024_10_29_29.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Melamine Wood and Spanish MD Brown Tv Unit - 90 × 30 × 40 cm</h5>
+                                    <p class="card-text">EGP 1,840.00 <span class="text-muted text-decoration-line-through"><br>EGP 2,740.00</span></p>
+                                    <p class="text-success">33% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- الشريحة الثانية -->
+                <div class="carousel-item">
+                    <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/1fg.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF White Tv Unit - 80×53×24 cm</h5>
+                                    <p class="card-text">EGP 730.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,120.00</span></p>
+                                    <p class="text-success">35% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/dhfcon1_.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Wood TV Unit And Center Table Black And Brown - 2 Pieces</h5>
+                                    <p class="card-text">EGP 13,250.00 <span class="text-muted text-decoration-line-through"><br>EGP 20,960.00</span></p>
+                                    <p class="text-success">37% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/dhfcon6.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Tv Unit White and Brown - 40×40×240 cm</h5>
+                                    <p class="card-text">EGP 9,600.00<span class="text-muted text-decoration-line-through"><br>EGP 15,120.00</span></p>
+                                    <p class="text-success">37% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col" id="you">
+                            <div class="card h-100">
+                                <img src="IMG/dhfcon46__1.jpg" class="card-img-top" alt="Product Image">
+                                <div class="card-body">
+                                    <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">MDF Wood TV Unit and Center Table White and Brown - 2 Pieces</h5>
+                                    <p class="card-text">EGP 13,450.00 <span class="text-muted text-decoration-line-through"><br>EGP 21,280.00</span></p>
+                                    <p class="text-success">37% Off</p>
+                                    <p class="text-muted">Upon Demand</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- عناصر التحكم -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel3" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">السابق</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel3" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">التالي</span>
+            </button>
+        </div>
+    </div>
+
+<div class="container" data-aos="fade-up" data-aos-duration="1500"> 
+    <h1 class="essentials-title text-center mb-4">EXPLORE TEXTILE COLLECTION</h1>
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+        <!-- Beds -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_27.jpg" alt="Beds" class="img-fluid">
+            </div>
+        </div>
+        <!-- Wardrobes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_26.jpg" alt="Wardrobes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Commodes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_25.jpg" alt="Commodes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Unit Drawers -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_24.jpg" alt="Unit Drawers" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="container my-5">
+    <h2 class="mb-4 text-center" id="scrollspyHeading4">Bed Covers</h2>
+    <div id="dressingCarousel4" class="carousel slide" data-bs-ride="carousel">
+        <!-- العناصر داخل Carousel -->
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/lin.sle.47.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Winter Fiber Quilt 4×180×220 cm - White</h5>
+                                <p class="card-text">EGP 811.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,513.00</span></p>
+                                <p class="text-success">47% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/homzsummer160_1_.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Homzmart Summer Fiber Duvet</h5>
+                                <p class="card-text">EGP 743.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,049.00</span></p>
+                                <p class="text-success">30% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/2_46_82.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Fiber Duvet Set Single -10×180×220 cm - White</h5>
+                                <p class="card-text">EGP 768.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,352.00</span></p>
+                                <p class="text-success">44% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/13_10_58.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Microfiber and Fiber Set of 2 Single Size Duvet - Multi color</h5>
+                                <p class="card-text">EGP 1,349.00 <span class="text-muted text-decoration-line-through"><br>EGP 2,100.00</span></p>
+                                <p class="text-success">36% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- الشريحة الثانية -->
+            <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/2_46_138.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Blended cotton Quilt Cover Duvet Multi color - 180×240 cm</h5>
+                                <p class="card-text">EGP 549.00 <span class="text-muted text-decoration-line-through"><br>EGP 864.00</span></p>
+                                <p class="text-success">37% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/tig.ttl.154.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Cotton Duvet Cover Set White - 3 Pieces</h5>
+                                <p class="card-text">EGP 945.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,360.00</span></p>
+                                <p class="text-success">31% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/lines1295.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Microfiber Bed Covers Blue and Grey - 220x240 cm</h5>
+                                <p class="card-text">EGP 869.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,748.00</span></p>
+                                <p class="text-success">51% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/lin.sle.43.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Winter Fiber Quilt 4×180×220 cm - Black</h5>
+                                <p class="card-text">EGP 810.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,511.00</span></p>
+                                <p class="text-success">47% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- عناصر التحكم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel4" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel4" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+
+<div class="container" data-aos="fade-up" data-aos-duration="1500"> 
+    <h1 class="essentials-title text-center mb-4">EXPLORE STEEL COLLECTION</h1>
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+        <!-- Beds -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-ShoeRacks-EN-APP-1_7.jpg" alt="Beds" class="img-fluid">
+            </div>
+        </div>
+        <!-- Wardrobes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Consoles-EN-APP-1_3.jpg" alt="Wardrobes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Commodes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Side_Tables-EN-APP-1_3.jpg" alt="Commodes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Unit Drawers -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Center_Tables-EN-APP-1_5.jpg" alt="Unit Drawers" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="container my-5">
+    <h2 class="mb-4 text-center" id="scrollspyHeading5">Modern Collection</h2>
+    <div id="dressingCarousel5" class="carousel slide" data-bs-ride="carousel">
+        <!-- العناصر داخل Carousel -->
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/out.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Coffee Table</h5>
+                                <p class="card-text">EGP 1,849.00 <span class="text-muted text-decoration-line-through"><br>EGP 2,400.00</span></p>
+                                <p class="text-success">23% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/s.f.stee.57.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Steel and Marble Centre Table Gold and White - 2 Pieces</h5>
+                                <p class="card-text">EGP 5,399.00 <span class="text-muted text-decoration-line-through"><br>EGP 7,000.00</span></p>
+                                <p class="text-success">23% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/st.so.sts25_1.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Steel and Marble Side Tables set 2 Pieces - White and Gold</h5>
+                                <p class="card-text">EGP 1,999.00 <span class="text-muted text-decoration-line-through"><br>EGP 2,600.00</span></p>
+                                <p class="text-success">24% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/s.f.stee.56.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Steel and Marble Console Gold and White - 90x110x35 cm</h5>
+                                <p class="card-text">EGP 3,999.00 <span class="text-muted text-decoration-line-through"><br>EGP 5,200.00</span></p>
+                                <p class="text-success">24% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- الشريحة الثانية -->
+            <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/st.so.27_3.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Iron and Glass Coffee Tables set 2 Pieces - Gold</h5>
+                                <p class="card-text">EGP 3,999.00 <span class="text-muted text-decoration-line-through"><br>EGP 5,200.00</span></p>
+                                <p class="text-success">24% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/sto.ste30_1_.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Steel and Marble Coffee Tables set 3 Pieces - Gold and White</h5>
+                                <p class="card-text">EGP 5,399.00<span class="text-muted text-decoration-line-through"><br>EGP 7,000.00</span></p>
+                                <p class="text-success">23% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/50_54.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Steel and MDF Side Tables set 3 Pieces - Brown and Gold</h5>
+                                <p class="card-text">EGP 2,599.00 <span class="text-muted text-decoration-line-through"><br>EGP 3,400.00</span></p>
+                                <p class="text-success">24% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/mja.3-2b.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Steel and Glass Coffee Table Black - 80x80x45 cm</h5>
+                                <p class="card-text">EGP 3,849.00 <span class="text-muted text-decoration-line-through"><br>EGP 5,000.00</span></p>
+                                <p class="text-success">24% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- عناصر التحكم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel5" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel5" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+
+<div class="container" data-aos="fade-up" data-aos-duration="1500"> 
+    <h1 class="essentials-title text-center mb-4">EXPLORE OFFICE FURNITURE</h1>
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+        <!-- Beds -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-ShoeRacks-EN-APP-1_8.jpg" alt="Beds" class="img-fluid">
+            </div>
+        </div>
+        <!-- Wardrobes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_23.jpg" alt="Wardrobes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Commodes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_22.jpg" alt="Commodes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Unit Drawers -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_21.jpg" alt="Unit Drawers" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="container my-5">
+    <h2 class="mb-4 text-center" id="scrollspyHeading6">Gaming Chairs</h2>
+    <div id="dressingCarousel6" class="carousel slide" data-bs-ride="carousel">
+        <!-- العناصر داخل Carousel -->
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/sarmioff112425.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Leather and Neylon Gaming Chair Blue and Black -65 × 50 ×138 cm</h5>
+                                <p class="card-text">EGP 8,000.00 <span class="text-muted text-decoration-line-through"><br>EGP 10,100.00</span></p>
+                                <p class="text-success">21% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/sarmioff112426.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Leather and Neylon Gaming Chair Green and Black -65 × 50 ×138 cm</h5>
+                                <p class="card-text">EGP 8,000.00 <span class="text-muted text-decoration-line-through"><br>EGP 10,100.00</span></p>
+                                <p class="text-success">21% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/ga_142.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Faux leather Gaming Chair Blue And Black - 130 x 50 x 65 cm</h5>
+                                <p class="card-text">EGP 8,550.00 <span class="text-muted text-decoration-line-through"><br>EGP 11,995.00</span></p>
+                                <p class="text-success">29% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/ga_140.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Faux leather Gaming Chair Black - 130 x 50 x 65 cm</h5>
+                                <p class="card-text">EGP 8,550.00 <span class="text-muted text-decoration-line-through"><br>EGP 12,145.00</span></p>
+                                <p class="text-success">30% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- الشريحة الثانية -->
+            <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/ga_195.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Plastic and Faux Leather Gaming Chair Pink and Black - 135×67×50 cm</h5>
+                                <p class="card-text">EGP 9,950.00<span class="text-muted text-decoration-line-through"><br>EGP 10,100.00</span></p>
+                                <p class="text-success">2% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/amefurga171.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Plastic and Faux Leather Gaming Chair Multi Color - 130x50x67 cm</h5>
+                                <p class="card-text">EGP 8,250.00 <span class="text-muted text-decoration-line-through"><br>EGP 12,150.00</span></p>
+                                <p class="text-success">33% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/amefurga171.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Plastic and Faux Leather Gaming Chair Multi Color - 130x50x67 cm</h5>
+                                <p class="card-text">EGP 8,250.00 <span class="text-muted text-decoration-line-through"><br>EGP 12,150.00</span></p>
+                                <p class="text-success">33% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/1_96_13.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Metal Video Gaming Chair Blue -55x130x51cm</h5>
+                                <p class="card-text">EGP 6,950.00 <span class="text-muted text-decoration-line-through"><br>EGP 9,775.00</span></p>
+                                <p class="text-success">29% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- عناصر التحكم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel6" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel6" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+
+<div class="container" data-aos="fade-up" data-aos-duration="1500"> 
+    <h1 class="essentials-title text-center mb-4">LIGHT YOUR SPACE</h1>
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+        <!-- Beds -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_31.jpg" alt="Beds" class="img-fluid">
+            </div>
+        </div>
+        <!-- Wardrobes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_30.jpg" alt="Wardrobes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Commodes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_29.jpg" alt="Commodes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Unit Drawers -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_28.jpg" alt="Unit Drawers" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="container my-5">
+    <h2 class="mb-4 text-center" id="scrollspyHeading7">Boho Lighting</h2>
+    <div id="dressingCarousel7" class="carousel slide" data-bs-ride="carousel">
+        <!-- العناصر داخل Carousel -->
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/cluclit16001wjt_1_.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">pottery Table Lamp White and Brown - 23x16x43 cm</h5>
+                                <p class="card-text">EGP 491.00 <span class="text-muted text-decoration-line-through"><br>EGP 721.00</span></p>
+                                <p class="text-success">32% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/c020_2_1.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Boho Table Lamp Beige - 45×30 cm</h5>
+                                <p class="card-text">EGP 655.00 <span class="text-muted text-decoration-line-through"><br>EGP 959.00</span></p>
+                                <p class="text-success">32% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/00_73.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">YL196-3A Ceiling Lamp - Multi Color</h5>
+                                <p class="card-text">EGP 2,727.00 <span class="text-muted text-decoration-line-through"><br>EGP 5,209.00</span></p>
+                                <p class="text-success">48% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/fl6016.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Pottery and boho Table Lamps Black and Beige - 40 x 40x 60 cm</h5>
+                                <p class="card-text">EGP 579.00 <span class="text-muted text-decoration-line-through"><br>EGP 879.00</span></p>
+                                <p class="text-success">35% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- الشريحة الثانية -->
+            <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/27_7_45.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Ceiling Lamp 35×22 cm - Beige - YLMMP - 25 + Free Lamp</h5>
+                                <p class="card-text">EGP 489.00 <span class="text-muted text-decoration-line-through"><br>EGP 909.00</span></p>
+                                <p class="text-success">47% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/50_4_24.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Bamboo Wall Lamp Beige - 25x25 cm + Free Lamp</h5>
+                                <p class="card-text">EGP 725.00<span class="text-muted text-decoration-line-through"><br>EGP 1,240.00</span></p>
+                                <p class="text-success">42% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/d90.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Metal and Jute Ropes Ceiling Lamp Beige and Silver - 80x45 cm</h5>
+                                <p class="card-text">EGP 1,439.00 <span class="text-muted text-decoration-line-through"><br>EGP 2,328.00</span></p>
+                                <p class="text-success">39% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/a_2_47.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Pottery and Metal Table Lamp Orange and Beige - 25×50 cm</h5>
+                                <p class="card-text">EGP 615.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,330.00</span></p>
+                                <p class="text-success">54% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- عناصر التحكم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel7" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel7" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+
+<div class="container" data-aos="fade-up" data-aos-duration="1500"> 
+    <h1 class="essentials-title text-center mb-4">DECORATE YOUR HOME</h1>
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+        <!-- Beds -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_35.jpg" alt="Beds" class="img-fluid">
+            </div>
+        </div>
+        <!-- Wardrobes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_34.jpg" alt="Wardrobes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Commodes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_33.jpg" alt="Commodes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Unit Drawers -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_32.jpg" alt="Unit Drawers" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+    
+<div class="container my-5">
+    <h2 class="mb-4 text-center" id="scrollspyHeading8">Boho Decor</h2>
+    <div id="dressingCarousel8" class="carousel slide" data-bs-ride="carousel">
+        <!-- العناصر داخل Carousel -->
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/fkh00109.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Cotton Macrame Wall Decor - Off-white</h5>
+                                <p class="card-text">EGP 780.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,113.00</span></p>
+                                <p class="text-success">32% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/art.w.aw_0307-env_1.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Mirror 80x180x4 cm - Brown - ART.W.AW.0307</h5>
+                                <p class="card-text">EGP 4,120.00 <span class="text-muted text-decoration-line-through"><br>EGP 5,120.00</span></p>
+                                <p class="text-success">20% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/6237f5b5-ae72-48f2-83d3-a250245e05f1.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">rugs 100 cm - Beige - COUNT.C.48</h5>
+                                <p class="card-text">EGP 1,010.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,154.00</span></p>
+                                <p class="text-success">13% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/fkh0021-en.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Wall Accessory 100x70 cm - Off-White</h5>
+                                <p class="card-text">EGP 785.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,005.00</span></p>
+                                <p class="text-success">35% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- الشريحة الثانية -->
+            <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/art-w-aw0405.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Floor Mirror 175x60x5 cm - Brown</h5>
+                                <p class="card-text">EGP 3,989.00 <span class="text-muted text-decoration-line-through"><br>EGP 5,120.00</span></p>
+                                <p class="text-success">23% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/15-2_15.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Pottery Vase 2 Pieces - Off-white</h5>
+                                <p class="card-text">EGP 661.00 <span class="text-muted text-decoration-line-through"><br>EGP 879.00</span></p>
+                                <p class="text-success">25% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/fkh0098.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Cotton Macrame Wall Decor - Off-white</h5>
+                                <p class="card-text">EGP 800.00 <span class="text-muted text-decoration-line-through"><br>EGP 1,165.00</span></p>
+                                <p class="text-success">32% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/es22.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Counter Wood Mirror Brown - 170x60x20 cm</h5>
+                                <p class="card-text">EGP 3,311.00 <span class="text-muted text-decoration-line-through"><br>EGP 4,184.00</span></p>
+                                <p class="text-success">21% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- عناصر التحكم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel8" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel8" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+
+<div class="container" data-aos="fade-up" data-aos-duration="1500" dir="rtl"> 
+    <h1 class="essentials-title text-center mb-4">EXPLORE KITCHEN SECTION</h1>
+    <div class="row row-cols-2 row-cols-md-4 row-cols-lg-4 g-4">
+        <!-- Beds -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_44.jpg" alt="Beds" class="img-fluid">
+            </div>
+        </div>
+        <!-- Wardrobes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_43.jpg" alt="Wardrobes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Commodes -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_42.jpg" alt="Commodes" class="img-fluid">
+            </div>
+        </div>
+        <!-- Unit Drawers -->
+        <div class="col" data-aos="fade-up" data-aos-duration="1500">
+            <div class="essential-item">
+                <img src="IMG/EGY-Mattresses-EN-APP-1_1_41.jpg" alt="Unit Drawers" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
+    <h2 class="mb-4 text-center" id="scrollspyHeading9">Best full kitchen deals</h2>
+    <div id="dressingCarousel9" class="carousel slide" data-bs-ride="carousel">
+        <!-- العناصر داخل Carousel -->
+        <div class="carousel-inner">
+            <!-- الشريحة الأولى -->
+            <div class="carousel-item active">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0005-4.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 150×58×225 cm</h5>
+                                <p class="card-text">EGP 31,600.00 <span class="text-muted text-decoration-line-through"><br>EGP 42,660.00</span></p>
+                                <p class="text-success">26% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0004-5.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 180×58×225 cm</h5>
+                                <p class="card-text">EGP 36,600.00 <span class="text-muted text-decoration-line-through"><br>EGP 49,410.00</span></p>
+                                <p class="text-success">26% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0003-1.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 135×58×225 cm</h5>
+                                <p class="card-text">EGP 36,200.00 <span class="text-muted text-decoration-line-through"><br>EGP 48,870.00</span></p>
+                                <p class="text-success">26% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0006-3.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 140×58×225 cm</h5>
+                                <p class="card-text">EGP 42,000.00 <span class="text-muted text-decoration-line-through"><br>EGP 56,700.00</span></p>
+                                <p class="text-success">26% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- الشريحة الثانية -->
+            <div class="carousel-item">
+                <div class="row row-cols-2 row-cols-md-2 row-cols-lg-2 g-3 justify-content-center">
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0008-6.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 140×58×225 cm</h5>
+                                <p class="card-text">EGP 47,700.00 <span class="text-muted text-decoration-line-through"><br>EGP 64,395.00</span></p>
+                                <p class="text-success">26% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0001-5.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 150×58×225 cm</h5>
+                                <p class="card-text">EGP 36,900.00 <span class="text-muted text-decoration-line-through"><br>EGP 49,815.00</span></p>
+                                <p class="text-success">26% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0007-2.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 240×58×225 cm</h5>
+                                <p class="card-text">EGP 55,400.00 <span class="text-muted text-decoration-line-through"><br>EGP 74,790.00</span></p>
+                                <p class="text-success">26% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col" id="you">
+                        <div class="card h-100">
+                            <img src="IMG/hk-0002-3.jpg" class="card-img-top" alt="Product Image">
+                            <div class="card-body">
+                                <a href="in2.html" style="text-decoration: none; color: #000; transition: color 0.2s ease-in-out;"><h5 class="card-title">Modern MDF Wood Kitchen - 240×58×225 cm</h5>
+                                <p class="card-text">EGP 55,400.00 <span class="text-muted text-decoration-line-through"><br>EGP 74,790.00</span></p>
+                                <p class="text-success">21% Off</p>
+                                <p class="text-muted">Upon Demand</p></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- عناصر التحكم -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#dressingCarousel9" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">السابق</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#dressingCarousel9" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">التالي</span>
+        </button>
+    </div>
+</div>
+       
+
+<!-- Footer Section -->
+<footer style="background-color: #c6ac8f; padding: 40px 20px;">
+    <div class="container">
+        <div class="row">
+            <!-- Company Section -->
+            <div class="col-6 col-md-2 mb-3">
+                <h6>Company</h6>
+                <ul class="list-unstyled">
+                    <li><a href="#" style="text-decoration: none;">About Us</a></li>
+                    <li><a href="#" style="text-decoration: none;">Contact Us</a></li>
+                    <li><a href="#" style="text-decoration: none;">Careers</a></li>
+                </ul>
+            </div>
+
+            <!-- Important Links Section -->
+            <div class="col-6 col-md-2 mb-3">
+                <h6>Important Links</h6>
+                <ul class="list-unstyled" id="text">
+                    <li><a href="#" style="text-decoration: none;">Return Policy</a></li>
+                    <li><a href="#" style="text-decoration: none;">Privacy Policy</a></li>
+                    <li><a href="#" style="text-decoration: none;">Terms & Condition</a></li>
+                    <li><a href="#" style="text-decoration: none;">Warranty</a></li>
+                    <li><a href="#" style="text-decoration: none;">Sell on Homzmart</a></li>
+                    <li><a href="#" style="text-decoration: none;">Homzmart For Business</a></li>
+                </ul>
+            </div>
+
+            <!-- Need Help Section -->
+            <div class="col-12 col-md-3 mb-3" id="text">
+                <h6>Need Help</h6>
+                <p><a href="mailto:hello@homzmart.com" style="text-decoration: none;">hello@homzmart.com</a></p>
+            </div>
+
+            <!-- Location Section -->
+            <div class="col-12 col-md-2 mb-3">
+                <h6>Location</h6>
+                <ul class="list-unstyled" id="text">
+                    <li><a href="#" style="text-decoration: none;">New Cairo</a></li>
+                    <li><a href="#" style="text-decoration: none;">October</a></li>
+                    <li><a href="#" style="text-decoration: none;">Mansoura, Dakahlia</a></li>
+                    <li><a href="#" style="text-decoration: none;">Alexandria</a></li>
+                </ul>
+            </div>
+
+            <!-- Payment Icons Section -->
+            <div class="col-12 col-md-3 mb-3">
+                <h6>We Accept</h6>
+                <div class="payment-icons">
+                    <img src="IMG/تنزيل (2).png" alt="Visa" width="50px" height="25">
+                    <img src="IMG/تنزيل.png" alt="MasterCard" width="50px" height="25">
+                    <img src="IMG/تنزيل (1).png" alt="Sympl" width="50px" height="25">
+                    <img src="IMG/vcash.png" alt="valU" width="50px" height="25">
+                    <img src="IMG/souhoola.2c5572ed.jpg" alt="Souhoola" width="50px" height="25">
+                    <img src="IMG/aman.b6413e7e.png" alt="Premium" width="50px" height="25">
+                </div>
+            </div>
+        </div>
+
+        <div class="row align-items-center">
+
+            <!-- Social Icons Section -->
+            <div class="col-12 col-md-6 m-4 text-md-end social-icons">
+                <h6>Follow Us</h6>
+                <a href="facebook-master/facebook-master/index.html"><i class="bi bi-facebook"></i></a>
+                <a href="instagram-main/instagram-main/index.html"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="row">
+            <div class="col-12 copyright">
+                © 2024 all rights reserved
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- JavaScript AOS -->
+<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
+</body>
+</html>
